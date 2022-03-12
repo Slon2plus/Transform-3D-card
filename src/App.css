@@ -37,6 +37,26 @@
   box-shadow: 0 0 20px 5px rgb(0, 255, 0);
 }
 
+.elem {
+  transition: 0.2s;
+  transform-style: preserve-3d;
+}
 .a {
-  transform: rotate(0);
+  margin: 15px;
+  height: 290px;
+  width: 180px;
+  transition: 0.3s;
+  border-radius: 16px;
+  animation-duration: 2s;
+  transform: rotateZ(17deg) rotateX(-60deg) rotateY(-34deg) translateY(26%);
+}
+
+.b {
+  margin: 15px;
+  height: 290px;
+  width: 180px;
+  transition: 0.3s;
+  border-radius: 16px;
+  animation-duration: 2s;
+  transform: rotateZ(17deg) rotateX(-60deg) rotateY(-34deg) translateY(-36%);
 }
